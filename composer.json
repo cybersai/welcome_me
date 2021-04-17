@@ -1,0 +1,17 @@
+{
+    "name": "cybersai/welcome_me",
+    "description": "A login and logout app",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isaac Sai",
+            "email": "isaacsai030@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "dibi/dibi": "^4.2"
+    }
+}
