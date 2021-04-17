@@ -12,7 +12,7 @@ use Dotenv\Dotenv;
 require __DIR__ . '/../vendor/autoload.php';
 
 // Lood environment variables and make it access in $_ENV
-Dotenv::createImmutable(__DIR__ . '/..')->load();
+Dotenv::createImmutable(__DIR__ . '/..')->safeLoad();
 
 // Connect to the database using pdo driver
 dibi::connect([
